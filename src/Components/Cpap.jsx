@@ -3,7 +3,7 @@ import  cpapimg from '../assets/cpap.png'
 
 const Cpap = () => {
   return (
-      <div className='w-[500px] h-[650px] justify-self-center bg-[#e6ebe6]  rounded-md  text-black p-5'>
+      <div className='w-[500px] h-[650px] justify-self-center bg-[#758875]  rounded-md  text-black p-5'>
                          <h1 className='my-5 text-center font-bold  text-[30px]'>Tokmart Mall</h1>
                          <img src={cpapimg} alt="" />
                          <h3 className='mt-3 text-[20px]'>A modern banking app with authentication,balance management  and transaction features</h3>

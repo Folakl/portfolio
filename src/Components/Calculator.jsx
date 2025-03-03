@@ -3,10 +3,10 @@ import calculatorimg from '../assets/calculator.png'
 
 const Calculator = () => {
   return (
-     <div className='w-[500px] h-[650px] justify-self-center bg-[#e6ebe6]  rounded-md  text-black p-5'>
+     <div className='w-[500px] h-[650px] justify-self-center bg-[#93a393]  rounded-md  text-black p-5 '>
                     <h1 className='my-5 text-center font-bold  text-[30px]'>Mini Basic Calculator</h1>
-                    <img src={calculatorimg} alt="" className='h-[200px]' />
-                    <h3 className='mt-3 text-[20px]'>A modern banking app with authentication,balance management  and transaction features</h3>
+                    <img src={calculatorimg} alt="" className='h-[200px] justify-self-center' />
+                    <h3 className='mt-3 text-[20px] '>A modern banking app with authentication,balance management  and transaction features</h3>
                     <h3 className='font-bold'>Tech  Stack: </h3>
                     <h3>Tailwind css,React,Redux toolkit</h3>
         
