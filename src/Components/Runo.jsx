@@ -3,8 +3,8 @@ import Runob  from '../assets/Runo.png'
 
 const Runo = () => {
   return (
-    <div className='w-[500px] h-[650px] justify-self-center bg-[#e6ebe6]  rounded-md  text-black p-5'>
-                   <h1 className='my-5 text-center font-bold  text-[30px]'>Runo Minimal Blog</h1>
+    <div className='w-[250px] h-fit justify-self-center bg-[#e6ebe6]  rounded-md  text-black p-5'>
+                   <h1 className='my-5 text-center font-bold  text-[20px]'>Runo Minimal Blog</h1>
                    <img src={Runob} alt="" />
                    <h3 className='mt-3 text-[20px]'>A modern banking app with authentication,balance management  and transaction features</h3>
                    <h3 className='font-bold'>Tech  Stack: </h3>
@@ -18,8 +18,8 @@ const Runo = () => {
                        <li> Responsive Design</li>
                    </ul>
                    
-                   <h3  className='mt-5 font-bold'>Live Demo : safepay-8ghw.vercel.app  <link rel="stylesheet" href="safepay-8ghw.vercel.app" /></h3>
-                   <h3 className='font-bold'>Github Repository: <span><link rel="stylesheet" href="safepay-8ghw.vercel.app" />safepay-8ghw.vercel.app</span></h3>
+                   <h3  className='mt-5 font-bold text-[10px]'>Live Demo : safepay-8ghw.vercel.app  <link rel="stylesheet" href="safepay-8ghw.vercel.app" /></h3>
+                   <h3 className='font-bold text-[10px]'>Github Repository: <span><link rel="stylesheet" href="safepay-8ghw.vercel.app" />safepay-8ghw.vercel.app</span></h3>
                </div>
   )
 }

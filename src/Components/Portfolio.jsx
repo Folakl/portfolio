@@ -15,7 +15,7 @@ const Portfolio = () => {
       <h3 className='text-[20px] text-center my-5 '>Check out some of my work below </h3>
 
    
-     <div className='grid lg:grid-cols-3 md-grid-cols-2  grid-cols-1 gap-5 '>
+     <div className='flex  flex-wrap gap-5 justify-center '>
      <Safepay/>
      <Safehaven/>
      <Shopping/>
